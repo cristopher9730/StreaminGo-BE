@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43b68a5d-caf1-4094-a66b-2f63d06a46c9" name="Changes" comment="Solucion resproduccion de video">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/actor/Actor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/actor/Actor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/auth/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/auth/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/casting/Casting.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/casting/Casting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/casting/CastingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/casting/CastingRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/movie/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/movie/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/passwordResetRequests/PasswordResetRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/passwordResetRequests/PasswordResetRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/passwordResetRequests/PasswordResetRequestRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/passwordResetRequests/PasswordResetRequestRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/user/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/logic/entity/user/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/rest/actor/ActorRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/rest/actor/ActorRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/rest/casting/CastingRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/rest/casting/CastingRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/rest/genre/GenreRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/rest/genre/GenreRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/rest/movie/MovieRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/rest/movie/MovieRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/rest/user/UserRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/project/demo/rest/user/UserRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/content/demo2_es.vtt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/content/demo2_es.vtt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/AdminSeeder.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/AuthRestController.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/SecurityConfiguration.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/StreamController.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/StreamService.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserRestController.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Socket" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2hOOPasIxxa8RhoxpNGpsCWfqkg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/crisa/Documents/Cenfotec/Programacion Orientada a Objetos/Home-Flix&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9de0862494cc3aa211be7c76dc6b547b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43b68a5d-caf1-4094-a66b-2f63d06a46c9" name="Changes" comment="" />
+      <created>1717461634117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717461634117</updated>
+      <workItem from="1717461635233" duration="2446000" />
+      <workItem from="1717468990346" duration="2772000" />
+      <workItem from="1717805737087" duration="10000" />
+      <workItem from="1717807544536" duration="3508000" />
+      <workItem from="1718681443301" duration="2378000" />
+      <workItem from="1719092390075" duration="12000" />
+      <workItem from="1720486551536" duration="465000" />
+      <workItem from="1720487462477" duration="6000" />
+      <workItem from="1720489241856" duration="1991000" />
+      <workItem from="1720655440237" duration="34000" />
+      <workItem from="1720658412140" duration="2152000" />
+      <workItem from="1720904449426" duration="2055000" />
+      <workItem from="1720906520730" duration="1468000" />
+      <workItem from="1720908001524" duration="7013000" />
+      <workItem from="1720924328598" duration="2482000" />
+      <workItem from="1720985737906" duration="9917000" />
+      <workItem from="1721088674408" duration="2715000" />
+      <workItem from="1721175434074" duration="638000" />
+      <workItem from="1721261921729" duration="4678000" />
+      <workItem from="1721435462125" duration="1771000" />
+      <workItem from="1721437576070" duration="4867000" />
+      <workItem from="1721505981370" duration="1440000" />
+      <workItem from="1721580921148" duration="12002000" />
+      <workItem from="1721694190412" duration="3019000" />
+      <workItem from="1721943151286" duration="3232000" />
+      <workItem from="1722041913627" duration="2183000" />
+      <workItem from="1722106898549" duration="10220000" />
+      <workItem from="1722183904269" duration="21630000" />
+      <workItem from="1722299720643" duration="5108000" />
+      <workItem from="1722628618109" duration="11134000" />
+      <workItem from="1722712020315" duration="9819000" />
+      <workItem from="1722823421925" duration="2093000" />
+      <workItem from="1722905133937" duration="6061000" />
+      <workItem from="1723078311178" duration="1587000" />
+      <workItem from="1723175462480" duration="788000" />
+      <workItem from="1723248765080" duration="3866000" />
+      <workItem from="1723316448474" duration="2568000" />
+      <workItem from="1723429335684" duration="3652000" />
+      <workItem from="1723433835420" duration="622000" />
+      <workItem from="1724000617029" duration="8909000" />
+      <workItem from="1724118514499" duration="2996000" />
+      <workItem from="1724199650470" duration="8846000" />
+      <workItem from="1724281934746" duration="2892000" />
+    </task>
+    <task id="LOCAL-00001" summary="Creación del proyecto">
+      <created>1717469108133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717469108133</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Application.properties">
+      <created>1717471503539</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717471503539</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Cambio relacion del rol">
+      <created>1717808374048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717808374048</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Conexion con la bd">
+      <created>1717810760452</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717810760452</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit inicial">
+      <created>1718681496100</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718681496100</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit application.properties">
+      <created>1718681692061</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718681692061</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Conexión BD">
+      <created>1720659709625</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720659709625</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Generar codigo de recuperacion">
+      <created>1720909552064</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720909552064</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Envio de correo con el codigo">
+      <created>1720925799005</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720925799005</updated>
+    </task>
+    <task id="LOCAL-00010" summary="sync">
+      <created>1720925833113</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720925833113</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Cambio de contrasenna">
+      <created>1720988793504</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720988793504</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Cambio del url">
+      <created>1720997274726</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720997274726</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Validacion fecha de expiracion">
+      <created>1721273027282</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721273027282</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Cambio en la clase actor">
+      <created>1722135397883</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722135397883</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Obtener actores del casting">
+      <created>1722195896124</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722195896124</updated>
+    </task>
+    <task id="LOCAL-00016" summary="select e insert de casting">
+      <created>1722200362232</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722200362232</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update casting">
+      <created>1722202237058</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722202237058</updated>
+    </task>
+    <task id="LOCAL-00018" summary="bug update casting">
+      <created>1722204629866</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722204629866</updated>
+    </task>
+    <task id="LOCAL-00019" summary="relacion movie-casting">
+      <created>1722214185651</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722214185651</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Creacion del socket">
+      <created>1722639859982</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1722639859982</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Cambio seguridad">
+      <created>1722716118079</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1722716118079</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Manejo del tipo de mensaje">
+      <created>1722717650940</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1722717650940</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Evitar cerrar el socket si alguien se desconecta">
+      <created>1722721158772</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1722721158772</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Solucion de error sync">
+      <created>1723249006100</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723249006100</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Limpiza de codigo">
+      <created>1723430184204</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723430184204</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Solucion resproduccion de video">
+      <created>1724007661569</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1724007661569</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/dev" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Application.properties" />
+    <MESSAGE value="Cambio relacion del rol" />
+    <MESSAGE value="Conexion con la bd" />
+    <MESSAGE value="Commit inicial" />
+    <MESSAGE value="Commit application.properties" />
+    <MESSAGE value="Conexión BD" />
+    <MESSAGE value="Generar codigo de recuperacion" />
+    <MESSAGE value="Envio de correo con el codigo" />
+    <MESSAGE value="sync" />
+    <MESSAGE value="Cambio de contrasenna" />
+    <MESSAGE value="Cambio del url" />
+    <MESSAGE value="Validacion fecha de expiracion" />
+    <MESSAGE value="Cambio en la clase actor" />
+    <MESSAGE value="Obtener actores del casting" />
+    <MESSAGE value="select e insert de casting" />
+    <MESSAGE value="update casting" />
+    <MESSAGE value="bug update casting" />
+    <MESSAGE value="relacion movie-casting" />
+    <MESSAGE value="Creacion del socket" />
+    <MESSAGE value="Cambio seguridad" />
+    <MESSAGE value="Manejo del tipo de mensaje" />
+    <MESSAGE value="Evitar cerrar el socket si alguien se desconecta" />
+    <MESSAGE value="Solucion de error sync" />
+    <MESSAGE value="Limpiza de codigo" />
+    <MESSAGE value="Solucion resproduccion de video" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solucion resproduccion de video" />
+  </component>
+</project>
